@@ -260,6 +260,36 @@ header .totalQuantity{
     font-size: x-large;
     font-weight: bold;
 }
+@media screen and (min-width: 768px) {
+    header img {
+        width: 50px;
+    }
+
+    header .totalQuantity {
+        font-size: x-large;
+        width: 35px;
+        height: 35px;
+        transform: translateX(20px);
+    }
+
+    .listProduct .item h2 {
+        font-size: x-large;
+    }
+
+    .listProduct .item .price {
+        font-size: x-large;
+    }
+
+    .listProduct .item button {
+        width: 50%;
+        padding: 10px 20px;
+        transform: translateX(-50%) translateY(100px);
+    }
+
+    .cart {
+        width: 400px;
+    }
+}
 
 
 
